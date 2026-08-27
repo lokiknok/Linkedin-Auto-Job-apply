@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LinkedIn Job Application Assistant</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220%22%200%20100%20100%22><text y=%22.9em%22 font-size=%2290%22>💼</text></svg>">
+</head>
+<body>
+  <div class="app-container">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-icon">in</div>
+        <div>
+          <div class="brand-title">Job Assistant</div>
+          <span class="brand-badge">Human-in-the-Loop</span>
+        </div>
+      </div>
+
+      <ul class="nav-links">
+        <li class="nav-item">
+          <button class="nav-btn active" data-view="dashboard">
+            <span class="nav-icon">📊</span> Dashboard
+          </button>
+        </li>
+        <li class="nav-item">
+          <button class="nav-btn" data-view="jobs">
+            <span class="nav-icon">🔎</span> Find Jobs
+          </button>
+        </li>
+        <li class="nav-item">
+          <button class="nav-btn" data-view="applications">
+            <span class="nav-icon">📋</span> Applications
+          </button>
+        </li>
+        <li class="nav-item">
+          <button class="nav-btn" data-view="settings">
+            <span class="nav-icon">⚙️</span> Settings & Resume
+          </button>
+        </li>
+      </ul>
+
+      <div class="sidebar-footer">
+        <div><strong>Assistant Status</strong></div>
+        <div id="sidebar-task-text">Waiting for action</div>
+      </div>
+    </aside>
+
+    <!-- Main Wrapper -->
+    <div class="main-wrapper">
+      <!-- Top Navigation Bar -->
+      <header class="topbar">
+        <div class="browser-bar">
+          <div id="browser-status-badge" class="status-badge stopped">
+            <span class="status-dot"></span>
+            <span id="browser-status-text">Browser Stopped</span>
+          </div>
+          <span id="browser-active-task" style="font-size: 13px; color: var(--text-muted);"></span>
+        </div>
+
+        <div style="display: flex; gap: 10px; align-items: center;">
+          <button id="btn-resume-browser" class="btn btn-success btn-sm" style="display: none;" onclick="app.resumeBrowserSession()">
+            <span>✅</span> I Logged In / Solved CAPTCHA
+          </button>
+          <button id="btn-toggle-browser" class="btn btn-secondary btn-sm">
+            <span>🌐</span> <span id="btn-browser-label">Launch Browser</span>
+          </button>
+          <button id="btn-quick-search" class="btn btn-primary btn-sm">
+            <span>🔍</span> Find Jobs Now
+          </button>
+        </div>
+      </header>
+
+      <!-- Content Area -->
+      <main class="content-area">
+        <!-- Safety Alert Banner -->
+        <div class="alert-banner info">
+          <span style="font-size: 18px;">🛡️</span>
+          <div>
+            <strong>Human-in-the-Loop Architecture:</strong> Automation prepares forms, attaches your resume, and suggests answers, but <strong>always pauses before final submission</strong> for your review in the browser.
+          </div>
+        </div>
+
+        <!-- ==================================================== -->
+        <!-- VIEW: DASHBOARD -->
+        <!-- ==================================================== -->
+        <section id="view-dashboard" class="view-section active">
+          <div class="page-header">
+            <div>
+              <h1 class="page-title">Dashboard Overview</h1>
+              <p class="page-subtitle">Track your job discovery, preparation progress, and applications.</p>
+            </div>
+            <button class="btn btn-secondary btn-sm" onclick="app.refreshDashboard()">🔄 Refresh</button>
+          </div>
+
+          <!-- Stats Grid -->
+          <div class="stats-grid">
+            <div class="stat-card">
+              <div class="stat-icon blue">🔎</div>
+              <div>
+                <div id="stat-found" class="stat-value">0</div>
+                <div class="stat-label">Jobs Found</div>
+              </div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-icon purple">📝</div>
+              <div>
+                <div id="stat-ready" class="stat-value">0</div>
+                <div class="stat-label">Ready for Review</div>
+              </div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-icon green">✅</div>
+              <div>
+                <div id="stat-applied" class="stat-value">0</div>
+                <div class="stat-label">Applications Submitted</div>
+              </div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-icon orange">🎯</div>
+              <div>
+                <div id="stat-interviews" class="stat-value">0</div>
+                <div class="stat-label">Interviews / Next Round</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Quick Actions & Status -->
+          <div class="card">
+            <div class="card-title">
+              <span>🚀 Quick Actions</span>
+            </div>
+            <div style="display: flex; flex-wrap: wrap; gap: 12px;">
+              <button class="btn btn-primary" onclick="app.navigate('jobs'); jobsView.startSearch();">
+                <span>🔍</span> Run Job Search
+              </button>
+              <button class="btn btn-secondary" onclick="app.navigate('settings')">
+                <span>📄</span> Update Resume & Skills
+              </button>
+              <button class="btn btn-secondary" onclick="settingsView.testTelegram()">
+                <span>📱</span> Test Telegram Alert
+              </button>
+            </div>
+          </div>
+
+          <!-- Recent Discovered Jobs Preview -->
+          <div class="card">
+            <div class="card-title">
+              <span>🌟 High Match Job Listings</span>
+              <button class="btn btn-secondary btn-sm" onclick="app.navigate('jobs')">View All Jobs →</button>
+            </div>
+            <div id="dashboard-jobs-container" class="jobs-list">
+              <div style="color: var(--text-muted); font-size: 13px;">No jobs discovered yet. Click "Run Job Search" to begin.</div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ==================================================== -->
+        <!-- VIEW: JOBS SEARCH -->
+        <!-- ==================================================== -->
+        <section id="view-jobs" class="view-section">
+          <div class="page-header">
+            <div>
+              <h1 class="page-title">Find & Filter Jobs</h1>
+              <p class="page-subtitle">Scrapes LinkedIn listings and calculates a 4-part match score based on your profile.</p>
+            </div>
+          </div>
+
+          <!-- Search Filter Bar -->
+          <div class="card">
+            <div class="form-grid" style="grid-template-columns: 2fr 1.5fr 1fr auto; align-items: flex-end;">
+              <div class="form-group" style="margin-bottom: 0;">
+                <label class="form-label">Job Titles / Keywords</label>
+                <input type="text" id="input-search-keywords" class="form-input" placeholder="e.g. Python Developer, AI Engineer">
+              </div>
+              <div class="form-group" style="margin-bottom: 0;">
+                <label class="form-label">Location</label>
+                <input type="text" id="input-search-location" class="form-input" placeholder="e.g. Chennai, Bangalore, Remote">
+              </div>
+              <div class="form-group" style="margin-bottom: 0;">
+                <label class="form-label">Min Match Score</label>
+                <select id="select-min-score" class="form-select">
+                  <option value="0">All Jobs (0%+)</option>
+                  <option value="50" selected>Moderate (50%+)</option>
+                  <option value="70">High Match (70%+)</option>
+                  <option value="85">Top Match (85%+)</option>
+                </select>
+              </div>
+              <button id="btn-run-search" class="btn btn-primary" style="height: 42px;">
+                <span>🔍</span> Search Jobs
+              </button>
+            </div>
+          </div>
+
+          <!-- Job Listings Container -->
+          <div id="jobs-list-container" class="jobs-list">
+            <div style="text-align: center; padding: 40px; color: var(--text-muted);">
+              Click "Search Jobs" to discover matching opportunities.
+            </div>
+          </div>
+        </section>
+
+        <!-- ==================================================== -->
+        <!-- VIEW: APPLICATIONS TRACKER -->
+        <!-- ==================================================== -->
+        <section id="view-applications" class="view-section">
+          <div class="page-header">
+            <div>
+              <h1 class="page-title">Applications Tracker</h1>
+              <p class="page-subtitle">Track, update stages, and manage notes for your applications.</p>
+            </div>
+          </div>
+
+          <!-- Filter & Search Controls -->
+          <div class="card" style="padding: 16px 24px;">
+            <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px;">
+              <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+                <button class="btn btn-secondary btn-sm app-filter-btn active" data-status="ALL">All (<span id="count-all">0</span>)</button>
+                <button class="btn btn-secondary btn-sm app-filter-btn" data-status="READY_TO_SUBMIT">Ready for Review (<span id="count-ready">0</span>)</button>
+                <button class="btn btn-secondary btn-sm app-filter-btn" data-status="APPLIED">Applied (<span id="count-applied">0</span>)</button>
+                <button class="btn btn-secondary btn-sm app-filter-btn" data-status="INTERVIEW">Interview (<span id="count-interview">0</span>)</button>
+                <button class="btn btn-secondary btn-sm app-filter-btn" data-status="REJECTED">Rejected (<span id="count-rejected">0</span>)</button>
+              </div>
+              <input type="text" id="input-apps-search" class="form-input" placeholder="Filter company or title..." style="width: 220px; padding: 6px 10px; font-size: 13px;">
+            </div>
+          </div>
+
+          <!-- Applications Table -->
+          <div class="card" style="padding: 0;">
+            <div class="table-responsive">
+              <table class="app-table">
+                <thead>
+                  <tr>
+                    <th>Company</th>
+                    <th>Position</th>
+                    <th>Location</th>
+                    <th>Match</th>
+                    <th>Status</th>
+                    <th>Date Applied</th>
+                    <th>Actions</th>
+                  </tr>
+                </thead>
+                <tbody id="applications-table-body">
+                  <tr>
+                    <td colspan="7" style="text-align: center; color: var(--text-muted); padding: 32px;">No applications tracked yet.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+
+        <!-- ==================================================== -->
+        <!-- VIEW: SETTINGS & RESUME -->
+        <!-- ==================================================== -->
+        <section id="view-settings" class="view-section">
+          <div class="page-header">
+            <div>
+              <h1 class="page-title">Settings & User Profile</h1>
+              <p class="page-subtitle">Configure your personal information, skills, job preferences, and integrations.</p>
+            </div>
+            <button class="btn btn-primary btn-sm" onclick="settingsView.saveSettings()">💾 Save Changes</button>
+          </div>
+
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 24px;">
+            <!-- Left Column: Personal Information -->
+            <div>
+              <div class="card">
+                <div class="card-title">👤 Personal Details</div>
+                <div class="form-grid">
+                  <div class="form-group">
+                    <label class="form-label">First Name</label>
+                    <input type="text" id="set-first-name" class="form-input">
+                  </div>
+                  <div class="form-group">
+                    <label class="form-label">Last Name</label>
+                    <input type="text" id="set-last-name" class="form-input">
+                  </div>
+                </div>
+                <div class="form-grid">
+                  <div class="form-group">
+                    <label class="form-label">Email Address</label>
+                    <input type="email" id="set-email" class="form-input">
+                  </div>
+                  <div class="form-group">
+                    <label class="form-label">Phone Number</label>
+                    <input type="text" id="set-phone" class="form-input">
+                  </div>
+                </div>
+                <div class="form-grid">
+                  <div class="form-group">
+                    <label class="form-label">City</label>
+                    <input type="text" id="set-city" class="form-input">
+                  </div>
+                  <div class="form-group">
+                    <label class="form-label">Country</label>
+                    <input type="text" id="set-country" class="form-input">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="form-label">LinkedIn Profile URL</label>
+                  <input type="text" id="set-linkedin" class="form-input">
+                </div>
+                <div class="form-group">
+                  <label class="form-label">Portfolio / GitHub URL</label>
+                  <input type="text" id="set-portfolio" class="form-input">
+                </div>
+              </div>
+
+              <!-- Resume Upload Card -->
+              <div class="card">
+                <div class="card-title">📄 Resume Management</div>
+                <p class="form-help" style="margin-bottom: 14px;">Select your PDF resume. Used for auto-attachment and AI context.</p>
+                <div style="display: flex; gap: 12px; align-items: center;">
+                  <input type="file" id="resume-file-input" accept=".pdf" style="display: none;">
+                  <button class="btn btn-secondary" onclick="document.getElementById('resume-file-input').click()">
+                    📁 Choose PDF Resume
+                  </button>
+                  <span id="resume-filename" style="font-size: 13px; color: var(--text-muted);">No resume selected</span>
+                </div>
+                <div id="resume-status-alert" style="margin-top: 10px; font-size: 12px;"></div>
+              </div>
+            </div>
+
+            <!-- Right Column: Preferences & Integrations -->
+            <div>
+              <div class="card">
+                <div class="card-title">🎯 Job Search Preferences</div>
+                <div class="form-group">
+                  <label class="form-label">Target Job Titles (comma separated)</label>
+                  <input type="text" id="set-job-titles" class="form-input">
+                </div>
+                <div class="form-group">
+                  <label class="form-label">Target Locations (comma separated)</label>
+                  <input type="text" id="set-locations" class="form-input">
+                </div>
+                <div class="form-group">
+                  <label class="form-label">Technical Skills / Keywords (comma separated)</label>
+                  <input type="text" id="set-skills" class="form-input">
+                </div>
+                <div class="form-grid">
+                  <div class="form-group">
+                    <label class="form-label">Experience Level</label>
+                    <select id="set-exp-level" class="form-select">
+                      <option value="Internship">Internship</option>
+                      <option value="Entry level">Entry level</option>
+                      <option value="Associate">Associate</option>
+                      <option value="Mid-Senior">Mid-Senior</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label class="form-label">Years of Experience</label>
+                    <input type="number" id="set-years-exp" class="form-input" min="0" max="30">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label style="display: flex; align-items: center; gap: 8px; font-size: 13px; cursor: pointer;">
+                    <input type="checkbox" id="set-remote"> Open to Remote Opportunities
+                  </label>
+                </div>
+              </div>
+
+              <!-- Telegram Bot & AI Status Card -->
+              <div class="card">
+                <div class="card-title">📱 Telegram & AI Integration</div>
+                <div id="telegram-warning" class="alert-banner warning" style="display: none;">
+                  ⚠️ Telegram notifications are not configured. Add TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in .env
+                </div>
+                <div id="telegram-success" class="alert-banner success" style="display: none;">
+                  ✅ Telegram Bot is connected and ready to send notifications.
+                </div>
+
+                <div id="ai-status-box" style="background: #f8fafc; padding: 12px 14px; border-radius: var(--radius); margin-top: 10px; font-size: 13px; border: 1px solid var(--border);">
+                  <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <div>
+                      <strong>🤖 AI Question Assistant:</strong>
+                      <span id="ai-status-provider" style="margin-left: 6px; color: var(--primary); font-weight: 600;">Google Gemini</span>
+                    </div>
+                    <span id="ai-status-badge" class="badge" style="background: var(--success-light); color: var(--success);">Active</span>
+                  </div>
+                  <div id="ai-status-model" style="font-size: 11px; color: var(--text-muted); margin-top: 4px;">Model: gemini-2.5-flash</div>
+                </div>
+
+                <div style="margin-top: 14px; display: flex; gap: 12px; align-items: center;">
+                  <button id="btn-test-telegram" class="btn btn-secondary" onclick="settingsView.testTelegram()">
+                    <span>📱</span> Test Telegram Connection
+                  </button>
+                  <span id="telegram-test-result" style="font-size: 12px;"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </div>
+
+  <!-- ==================================================== -->
+  <!-- MODAL: Application Preparation & Review Helper -->
+  <!-- ==================================================== -->
+  <div id="app-modal" class="modal-backdrop">
+    <div class="modal-container">
+      <div class="modal-header">
+        <h3 id="modal-title" class="modal-title">Prepare Application</h3>
+        <button class="modal-close" onclick="app.closeModal()">✕</button>
+      </div>
+      <div class="modal-body" id="modal-body">
+        <!-- Injected dynamically -->
+      </div>
+      <div class="modal-footer" id="modal-footer">
+        <button class="btn btn-secondary" onclick="app.closeModal()">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div id="toast-container" class="toast-container"></div>
+
+  <!-- JavaScript Modules -->
+  <script src="/js/app.js"></script>
+  <script src="/js/dashboard.js"></script>
+  <script src="/js/jobs.js"></script>
+  <script src="/js/applications.js"></script>
+  <script src="/js/settings.js"></script>
+</body>
+</html>
+

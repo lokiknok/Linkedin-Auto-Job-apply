@@ -1,0 +1,667 @@
+[2026-08-26 16:57:01] [INFO] [app] Initializing LinkedIn Job Application Assistant...
+[2026-08-26 16:57:01] [INFO] [database] Database initialized successfully.
+[2026-08-26 16:57:01] [INFO] [app] Telegram notifications not configured. Running in local mode.
+[2026-08-26 16:57:01] [INFO] [app] Server ready at http://127.0.0.1:8000
+[2026-08-26 16:58:14] [INFO] [search] Starting job search for: ['python'] in ['chennai']
+[2026-08-26 16:58:14] [INFO] [browser] [Browser Status] Searching for jobs... (Task: Job Search)
+[2026-08-26 16:58:14] [INFO] [search] Using mock job generator for demonstration / offline validation.
+[2026-08-26 16:58:14] [INFO] [search] 12 jobs scraped, 12 matched filters & threshold.
+[2026-08-26 16:58:14] [INFO] [browser] [Browser Status] Search complete: 12 jobs ready (Task: Ready)
+[2026-08-26 17:00:59] [INFO] [resume] Resume saved successfully: D:\Python life Ai\LInked_in\resumes\Lohith_v resume.pdf
+[2026-08-26 17:04:20] [INFO] [app] Shutting down assistant...
+[2026-08-26 17:04:20] [INFO] [app] Shutdown complete.
+[2026-08-26 17:09:07] [INFO] [app] Initializing LinkedIn Job Application Assistant...
+[2026-08-26 17:09:07] [INFO] [database] Database initialized successfully.
+[2026-08-26 17:09:07] [INFO] [app] Telegram notifications not configured. Running in local mode.
+[2026-08-26 17:09:07] [INFO] [app] Server ready at http://127.0.0.1:8000
+[2026-08-26 17:11:58] [INFO] [browser] [Browser Status] Starting browser... (Task: Initializing)
+[2026-08-26 17:12:01] [INFO] [browser] [Browser Status] Browser started (Task: Navigating to LinkedIn)
+[2026-08-26 17:12:04] [INFO] [browser] [Browser Status] Please log in manually in the browser window (Task: Awaiting Manual Login)
+[2026-08-26 17:12:05] [INFO] [browser] [Browser Status] Please log in manually in the browser window (Task: Awaiting Manual Login)
+[2026-08-26 17:12:05] [INFO] [browser] [Browser Status] Please log in manually in the browser window (Task: Awaiting Manual Login)
+[2026-08-26 17:12:07] [INFO] [browser] [Browser Status] Please log in manually in the browser window (Task: Awaiting Manual Login)
+[2026-08-26 17:12:11] [INFO] [browser] [Browser Status] Please log in manually in the browser window (Task: Awaiting Manual Login)
+[2026-08-26 17:12:16] [INFO] [browser] [Browser Status] Please log in manually in the browser window (Task: Awaiting Manual Login)
+[2026-08-26 17:12:19] [INFO] [browser] [Browser Status] Please log in manually in the browser window (Task: Awaiting Manual Login)
+[2026-08-26 17:12:23] [INFO] [browser] [Browser Status] Please log in manually in the browser window (Task: Awaiting Manual Login)
+[2026-08-26 17:13:21] [INFO] [browser] [Browser Status] Browser closed (Task: Idle)
+[2026-08-26 17:13:25] [INFO] [browser] [Browser Status] Starting browser... (Task: Initializing)
+[2026-08-26 17:13:26] [INFO] [browser] [Browser Status] Browser started (Task: Navigating to LinkedIn)
+[2026-08-26 17:13:29] [INFO] [browser] [Browser Status] Please log in manually in the browser window (Task: Awaiting Manual Login)
+[2026-08-26 17:13:29] [INFO] [browser] [Browser Status] Please log in manually in the browser window (Task: Awaiting Manual Login)
+[2026-08-26 17:13:29] [INFO] [browser] [Browser Status] Please log in manually in the browser window (Task: Awaiting Manual Login)
+[2026-08-26 17:13:32] [INFO] [browser] [Browser Status] Please log in manually in the browser window (Task: Awaiting Manual Login)
+[2026-08-26 17:13:37] [INFO] [browser] [Browser Status] Awaiting user login on LinkedIn (Task: Awaiting Manual Login)
+[2026-08-26 17:13:39] [INFO] [browser] [Browser Status] Please log in manually in the browser window (Task: Awaiting Manual Login)
+[2026-08-26 17:13:43] [INFO] [browser] [Browser Status] Please log in manually in the browser window (Task: Awaiting Manual Login)
+[2026-08-26 17:13:47] [INFO] [browser] [Browser Status] Please log in manually in the browser window (Task: Awaiting Manual Login)
+[2026-08-26 17:13:52] [INFO] [browser] [Browser Status] Please log in manually in the browser window (Task: Awaiting Manual Login)
+[2026-08-26 17:13:55] [WARNING] [browser] Security challenge detected on URL: https://www.linkedin.com/checkpoint/challengesv2/aqfn9mfvpslc1qaaaaa94fq8kzcewkyb16igektni9otapa8nzptavlnscfpjvprjpwsujjml94xj7nhd7ovv61fjhu8yhpoma/?ut=06iclqodsvfso1
+[2026-08-26 17:13:55] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Please complete it manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:13:59] [WARNING] [browser] Security challenge detected on URL: https://www.linkedin.com/checkpoint/challengesv2/aqfn9mfvpslc1qaaaaa94fq8kzcewkyb16igektni9otapa8nzptavlnscfpjvprjpwsujjml94xj7nhd7ovv61fjhu8yhpoma/?ut=06iclqodsvfso1
+[2026-08-26 17:13:59] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Please complete it manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:14:03] [WARNING] [browser] Security challenge detected on URL: https://www.linkedin.com/checkpoint/challengesv2/aqfn9mfvpslc1qaaaaa94fq8kzcewkyb16igektni9otapa8nzptavlnscfpjvprjpwsujjml94xj7nhd7ovv61fjhu8yhpoma/?ut=06iclqodsvfso1
+[2026-08-26 17:14:03] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Please complete it manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:14:07] [WARNING] [browser] Security challenge detected on URL: https://www.linkedin.com/checkpoint/challengesv2/aqfn9mfvpslc1qaaaaa94fq8kzcewkyb16igektni9otapa8nzptavlnscfpjvprjpwsujjml94xj7nhd7ovv61fjhu8yhpoma/?ut=06iclqodsvfso1
+[2026-08-26 17:14:07] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Please complete it manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:14:11] [WARNING] [browser] Security challenge detected on URL: https://www.linkedin.com/checkpoint/challengesv2/aqfn9mfvpslc1qaaaaa94fq8kzcewkyb16igektni9otapa8nzptavlnscfpjvprjpwsujjml94xj7nhd7ovv61fjhu8yhpoma/?ut=06iclqodsvfso1
+[2026-08-26 17:14:11] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Please complete it manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:14:15] [WARNING] [browser] Security challenge detected on URL: https://www.linkedin.com/flagship-web/login?challengeid=aqfn9mfvpslc1qaaaaa94fq8kzcewkyb16igektni9otapa8nzptavlnscfpjvprjpwsujjml94xj7nhd7ovv61fjhu8yhpoma&submissionid=8559ddb3-a49b-4efe-b0d1-00ef11668da2&challengesource=agg1ifptsr-qlwaaaaa94lrbulq-4naycdqkmbxaheimg0q71ketoprmiyt3mn_v&challegetype=agg2lrf5yys5tqaaaaa94lreku5oldgcsthkj00qu_l9gvgyohovolmu4ov5rjs2i_4s6r84fve&memberid=agfb-vx0s6x_2aaaaaa94lrhh8dfau-ot6chdf1vvuzvokyvlajuvi_f4ae&recognizedevice=agf4ftzqsepcagaaaaa94lrkzj0q7i6ny9keznagbhqhtpofhci&controlid=d_checkpoint_ch_linked_in_app_challenge_activity_device-submit&ut=3cbnb8oeivfso1
+[2026-08-26 17:14:15] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Please complete it manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:14:20] [INFO] [browser] [Browser Status] User logged into LinkedIn (Task: Ready)
+[2026-08-26 17:14:23] [INFO] [browser] [Browser Status] User logged into LinkedIn (Task: Ready)
+[2026-08-26 17:14:27] [INFO] [browser] [Browser Status] User logged into LinkedIn (Task: Ready)
+[2026-08-26 17:14:31] [INFO] [browser] [Browser Status] User logged into LinkedIn (Task: Ready)
+[2026-08-26 17:14:35] [INFO] [browser] [Browser Status] User logged into LinkedIn (Task: Ready)
+[2026-08-26 17:14:39] [INFO] [browser] [Browser Status] User logged into LinkedIn (Task: Ready)
+[2026-08-26 17:14:43] [INFO] [browser] [Browser Status] User logged into LinkedIn (Task: Ready)
+[2026-08-26 17:14:44] [INFO] [search] Starting job search for: ['Python Developer', 'AI Engineer', 'Machine Learning Engineer', 'Backend Developer', 'Data Scientist'] in ['Chennai', 'Bangalore', 'Remote', 'India']
+[2026-08-26 17:14:44] [INFO] [browser] [Browser Status] Searching for jobs... (Task: Job Search)
+[2026-08-26 17:14:44] [INFO] [search] Searching LinkedIn: https://www.linkedin.com/jobs/search/?keywords=Python+Developer&sortBy=R&location=Chennai&f_AL=true&f_WT=2&f_E=2
+[2026-08-26 17:14:44] [INFO] [browser] [Browser Status] Navigating to https://www.linkedin.com/jobs/search/?keywords=Python+Developer&sortBy=R&location=Chennai&f_AL=true&f_WT=2&f_E=2 (Task: Navigating)
+[2026-08-26 17:14:48] [INFO] [browser] [Browser Status] User logged into LinkedIn (Task: Ready)
+[2026-08-26 17:14:50] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:14:50] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:14:50] [INFO] [search] Searching LinkedIn: https://www.linkedin.com/jobs/search/?keywords=Python+Developer&sortBy=R&location=Bangalore&f_AL=true&f_WT=2&f_E=2
+[2026-08-26 17:14:50] [INFO] [browser] [Browser Status] Navigating to https://www.linkedin.com/jobs/search/?keywords=Python+Developer&sortBy=R&location=Bangalore&f_AL=true&f_WT=2&f_E=2 (Task: Navigating)
+[2026-08-26 17:14:52] [INFO] [browser] [Browser Status] User logged into LinkedIn (Task: Ready)
+[2026-08-26 17:14:55] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:14:55] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:14:55] [INFO] [search] Searching LinkedIn: https://www.linkedin.com/jobs/search/?keywords=AI+Engineer&sortBy=R&location=Chennai&f_AL=true&f_WT=2&f_E=2
+[2026-08-26 17:14:55] [INFO] [browser] [Browser Status] Navigating to https://www.linkedin.com/jobs/search/?keywords=AI+Engineer&sortBy=R&location=Chennai&f_AL=true&f_WT=2&f_E=2 (Task: Navigating)
+[2026-08-26 17:14:55] [INFO] [browser] [Browser Status] User logged into LinkedIn (Task: Ready)
+[2026-08-26 17:14:59] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:14:59] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:14:59] [INFO] [search] Searching LinkedIn: https://www.linkedin.com/jobs/search/?keywords=AI+Engineer&sortBy=R&location=Bangalore&f_AL=true&f_WT=2&f_E=2
+[2026-08-26 17:14:59] [INFO] [browser] [Browser Status] Navigating to https://www.linkedin.com/jobs/search/?keywords=AI+Engineer&sortBy=R&location=Bangalore&f_AL=true&f_WT=2&f_E=2 (Task: Navigating)
+[2026-08-26 17:15:00] [INFO] [browser] [Browser Status] User logged into LinkedIn (Task: Ready)
+[2026-08-26 17:15:04] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:15:04] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:15:04] [INFO] [search] Searching LinkedIn: https://www.linkedin.com/jobs/search/?keywords=Machine+Learning+Engineer&sortBy=R&location=Chennai&f_AL=true&f_WT=2&f_E=2
+[2026-08-26 17:15:04] [INFO] [browser] [Browser Status] Navigating to https://www.linkedin.com/jobs/search/?keywords=Machine+Learning+Engineer&sortBy=R&location=Chennai&f_AL=true&f_WT=2&f_E=2 (Task: Navigating)
+[2026-08-26 17:15:04] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:15:04] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:15:08] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:15:08] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:15:08] [INFO] [search] Searching LinkedIn: https://www.linkedin.com/jobs/search/?keywords=Machine+Learning+Engineer&sortBy=R&location=Bangalore&f_AL=true&f_WT=2&f_E=2
+[2026-08-26 17:15:08] [INFO] [browser] [Browser Status] Navigating to https://www.linkedin.com/jobs/search/?keywords=Machine+Learning+Engineer&sortBy=R&location=Bangalore&f_AL=true&f_WT=2&f_E=2 (Task: Navigating)
+[2026-08-26 17:15:08] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:15:08] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:15:11] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:15:11] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:15:11] [INFO] [search] Using mock job generator for demonstration / offline validation.
+[2026-08-26 17:15:11] [INFO] [search] 12 jobs scraped, 12 matched filters & threshold.
+[2026-08-26 17:15:11] [INFO] [browser] [Browser Status] Search complete: 12 jobs ready (Task: Ready)
+[2026-08-26 17:15:12] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:15:12] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:15:15] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:15:15] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:15:19] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:15:19] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:15:23] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:15:23] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:15:27] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:15:27] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:15:31] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:15:31] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:15:35] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:15:35] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:15:39] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:15:39] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:15:43] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:15:43] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:15:47] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:15:47] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:15:51] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:15:51] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:15:55] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:15:55] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:15:59] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:15:59] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:16:03] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:16:03] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:16:07] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:16:07] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:16:11] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:16:11] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:16:15] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:16:15] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:16:19] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:16:19] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:16:23] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:16:23] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:16:27] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:16:27] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:16:31] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:16:31] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:16:35] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:16:35] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:16:39] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:16:39] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:16:43] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:16:43] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:16:47] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:16:47] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:16:51] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:16:51] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:16:55] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:16:55] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:16:59] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:16:59] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:17:03] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:17:03] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:17:07] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:17:07] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:17:37] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:17:37] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:18:37] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:18:37] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:18:43] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:18:43] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:18:43] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:18:43] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:18:47] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:18:47] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:18:51] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:18:51] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:18:55] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:18:55] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:18:59] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:18:59] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:19:03] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:19:03] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:19:07] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:19:07] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:19:11] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:19:11] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:19:15] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:19:15] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:19:19] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:19:19] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:19:23] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:19:23] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:19:27] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:19:27] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:19:31] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:19:31] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:19:35] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:19:35] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:19:39] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:19:39] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:19:43] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:19:43] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:19:47] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:19:47] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:19:51] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:19:51] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:19:55] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:19:55] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:19:59] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:19:59] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:20:03] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:20:03] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:20:07] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:20:07] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:20:11] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:20:11] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:20:15] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:20:15] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:20:16] [INFO] [search] Starting job search for: ['Python Developer', 'AI Engineer', 'Machine Learning Engineer', 'Backend Developer', 'Data Scientist'] in ['Chennai', 'Bangalore', 'Remote', 'India']
+[2026-08-26 17:20:16] [INFO] [browser] [Browser Status] Searching for jobs... (Task: Job Search)
+[2026-08-26 17:20:16] [INFO] [search] Using mock job generator for demonstration / offline validation.
+[2026-08-26 17:20:16] [INFO] [search] 12 jobs scraped, 12 matched filters & threshold.
+[2026-08-26 17:20:16] [INFO] [browser] [Browser Status] Search complete: 12 jobs ready (Task: Ready)
+[2026-08-26 17:20:19] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:20:19] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:20:23] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:20:23] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:20:27] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:20:27] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:20:31] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:20:31] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:20:35] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:20:35] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:20:39] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:20:39] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:20:43] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:20:43] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:20:47] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:20:47] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:20:51] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:20:51] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:20:55] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:20:55] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:20:59] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:20:59] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:21:03] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:21:03] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:21:07] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:21:07] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:21:11] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:21:11] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:21:15] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:21:15] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:21:19] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:21:19] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:21:23] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:21:23] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:21:27] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:21:27] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:21:31] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:21:31] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:21:35] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:21:35] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:21:39] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:21:39] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:21:41] [INFO] [browser] [Browser Status] Browser closed (Task: Idle)
+[2026-08-26 17:21:44] [INFO] [browser] [Browser Status] Starting browser... (Task: Initializing)
+[2026-08-26 17:21:45] [INFO] [browser] [Browser Status] Browser started (Task: Navigating to LinkedIn)
+[2026-08-26 17:21:47] [INFO] [browser] [Browser Status] Awaiting user login on LinkedIn (Task: Awaiting Manual Login)
+[2026-08-26 17:21:50] [INFO] [browser] [Browser Status] User logged into LinkedIn (Task: Ready)
+[2026-08-26 17:21:50] [INFO] [browser] [Browser Status] User logged into LinkedIn (Task: Ready)
+[2026-08-26 17:21:51] [INFO] [browser] [Browser Status] User logged into LinkedIn (Task: Ready)
+[2026-08-26 17:21:55] [INFO] [browser] [Browser Status] User logged into LinkedIn (Task: Ready)
+[2026-08-26 17:21:59] [INFO] [browser] [Browser Status] User logged into LinkedIn (Task: Ready)
+[2026-08-26 17:22:03] [INFO] [browser] [Browser Status] User logged into LinkedIn (Task: Ready)
+[2026-08-26 17:22:07] [INFO] [browser] [Browser Status] User logged into LinkedIn (Task: Ready)
+[2026-08-26 17:22:11] [INFO] [browser] [Browser Status] User logged into LinkedIn (Task: Ready)
+[2026-08-26 17:22:15] [INFO] [search] Starting job search for: ['Python Developer', 'AI Engineer', 'Machine Learning Engineer', 'Backend Developer', 'Data Scientist'] in ['Chennai', 'Bangalore', 'Remote', 'India']
+[2026-08-26 17:22:15] [INFO] [browser] [Browser Status] Searching for jobs... (Task: Job Search)
+[2026-08-26 17:22:15] [INFO] [search] Searching LinkedIn: https://www.linkedin.com/jobs/search/?keywords=Python+Developer&sortBy=R&location=Chennai&f_AL=true&f_WT=2&f_E=2
+[2026-08-26 17:22:15] [INFO] [browser] [Browser Status] Navigating to https://www.linkedin.com/jobs/search/?keywords=Python+Developer&sortBy=R&location=Chennai&f_AL=true&f_WT=2&f_E=2 (Task: Navigating)
+[2026-08-26 17:22:15] [INFO] [browser] [Browser Status] User logged into LinkedIn (Task: Ready)
+[2026-08-26 17:22:19] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:22:19] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:22:19] [INFO] [search] Searching LinkedIn: https://www.linkedin.com/jobs/search/?keywords=Python+Developer&sortBy=R&location=Bangalore&f_AL=true&f_WT=2&f_E=2
+[2026-08-26 17:22:19] [INFO] [browser] [Browser Status] Navigating to https://www.linkedin.com/jobs/search/?keywords=Python+Developer&sortBy=R&location=Bangalore&f_AL=true&f_WT=2&f_E=2 (Task: Navigating)
+[2026-08-26 17:22:20] [INFO] [browser] [Browser Status] User logged into LinkedIn (Task: Ready)
+[2026-08-26 17:22:23] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:22:23] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:22:23] [INFO] [search] Searching LinkedIn: https://www.linkedin.com/jobs/search/?keywords=AI+Engineer&sortBy=R&location=Chennai&f_AL=true&f_WT=2&f_E=2
+[2026-08-26 17:22:23] [INFO] [browser] [Browser Status] Navigating to https://www.linkedin.com/jobs/search/?keywords=AI+Engineer&sortBy=R&location=Chennai&f_AL=true&f_WT=2&f_E=2 (Task: Navigating)
+[2026-08-26 17:22:23] [INFO] [browser] [Browser Status] User logged into LinkedIn (Task: Ready)
+[2026-08-26 17:22:26] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:22:26] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:22:26] [INFO] [search] Searching LinkedIn: https://www.linkedin.com/jobs/search/?keywords=AI+Engineer&sortBy=R&location=Bangalore&f_AL=true&f_WT=2&f_E=2
+[2026-08-26 17:22:26] [INFO] [browser] [Browser Status] Navigating to https://www.linkedin.com/jobs/search/?keywords=AI+Engineer&sortBy=R&location=Bangalore&f_AL=true&f_WT=2&f_E=2 (Task: Navigating)
+[2026-08-26 17:22:28] [INFO] [browser] [Browser Status] User logged into LinkedIn (Task: Ready)
+[2026-08-26 17:22:30] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:22:30] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:22:30] [INFO] [search] Searching LinkedIn: https://www.linkedin.com/jobs/search/?keywords=Machine+Learning+Engineer&sortBy=R&location=Chennai&f_AL=true&f_WT=2&f_E=2
+[2026-08-26 17:22:30] [INFO] [browser] [Browser Status] Navigating to https://www.linkedin.com/jobs/search/?keywords=Machine+Learning+Engineer&sortBy=R&location=Chennai&f_AL=true&f_WT=2&f_E=2 (Task: Navigating)
+[2026-08-26 17:22:32] [INFO] [browser] [Browser Status] User logged into LinkedIn (Task: Ready)
+[2026-08-26 17:22:34] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:22:34] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:22:34] [INFO] [search] Searching LinkedIn: https://www.linkedin.com/jobs/search/?keywords=Machine+Learning+Engineer&sortBy=R&location=Bangalore&f_AL=true&f_WT=2&f_E=2
+[2026-08-26 17:22:34] [INFO] [browser] [Browser Status] Navigating to https://www.linkedin.com/jobs/search/?keywords=Machine+Learning+Engineer&sortBy=R&location=Bangalore&f_AL=true&f_WT=2&f_E=2 (Task: Navigating)
+[2026-08-26 17:22:35] [INFO] [browser] [Browser Status] User logged into LinkedIn (Task: Ready)
+[2026-08-26 17:22:39] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:22:39] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:22:39] [INFO] [search] Using mock job generator for demonstration / offline validation.
+[2026-08-26 17:22:39] [INFO] [search] 12 jobs scraped, 12 matched filters & threshold.
+[2026-08-26 17:22:39] [INFO] [browser] [Browser Status] Search complete: 12 jobs ready (Task: Ready)
+[2026-08-26 17:22:39] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:22:39] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:22:43] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:22:43] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:22:47] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:22:47] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:22:51] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:22:51] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:22:56] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:22:56] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:22:59] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:22:59] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:23:04] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:23:04] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:23:07] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:23:07] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:23:11] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:23:11] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:23:15] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:23:15] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:23:19] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:23:19] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:23:23] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:23:23] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:23:27] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:23:27] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:23:31] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:23:31] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:23:35] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:23:35] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:23:39] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:23:39] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:23:43] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:23:43] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:23:47] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:23:47] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:23:51] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:23:51] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:23:55] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:23:55] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:23:59] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:23:59] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:24:03] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:24:03] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:24:07] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:24:07] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:24:11] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:24:11] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:24:15] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:24:15] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:24:19] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:24:19] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:24:23] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:24:23] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:24:27] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:24:27] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:24:31] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:24:31] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:24:35] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:24:35] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:24:39] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:24:39] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:24:43] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:24:43] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:25:38] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:25:38] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:26:37] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:26:37] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:27:10] [INFO] [telegram] Telegram message sent successfully.
+[2026-08-26 17:27:37] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:27:37] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:28:38] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:28:38] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:29:37] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:29:37] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:30:37] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:30:37] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete verification manually in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:31:08] [INFO] [app] Shutting down assistant...
+[2026-08-26 17:31:09] [INFO] [browser] [Browser Status] Browser closed (Task: Idle)
+[2026-08-26 17:31:09] [INFO] [app] Shutdown complete.
+[2026-08-26 17:31:16] [INFO] [app] Initializing LinkedIn Job Application Assistant...
+[2026-08-26 17:31:16] [INFO] [database] Database initialized successfully.
+[2026-08-26 17:31:16] [INFO] [telegram] Telegram command polling loop started.
+[2026-08-26 17:31:16] [INFO] [telegram] Telegram bot polling started in background thread.
+[2026-08-26 17:31:16] [INFO] [app] Server ready at http://127.0.0.1:8000
+[2026-08-26 17:31:34] [INFO] [telegram] Telegram message sent successfully.
+[2026-08-26 17:32:00] [INFO] [resume] Resume saved successfully: D:\Python life Ai\LInked_in\resumes\Lohith_v resume.pdf
+[2026-08-26 17:32:43] [INFO] [browser] [Browser Status] Starting browser... (Task: Initializing)
+[2026-08-26 17:32:45] [INFO] [browser] [Browser Status] Browser started (Task: Navigating to LinkedIn)
+[2026-08-26 17:32:46] [INFO] [browser] [Browser Status] Awaiting user login in browser (Task: Awaiting Manual Login)
+[2026-08-26 17:32:49] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:32:49] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:32:49] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:32:52] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:32:55] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:32:58] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:33:01] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:33:04] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:33:07] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:33:10] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:33:13] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:33:16] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:33:19] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:33:22] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:33:23] [INFO] [search] Starting job search for: ['Python Developer', 'AI Engineer', 'Machine Learning Engineer', 'Backend Developer', 'Data Scientist'] in ['Chennai', 'Bangalore', 'Remote', 'India']
+[2026-08-26 17:33:23] [INFO] [browser] [Browser Status] Searching for jobs... (Task: Job Search)
+[2026-08-26 17:33:23] [INFO] [search] Searching LinkedIn: https://www.linkedin.com/jobs/search/?keywords=Python+Developer&sortBy=R&location=Chennai&f_AL=true&f_WT=2&f_E=2
+[2026-08-26 17:33:23] [INFO] [browser] [Browser Status] Navigating to https://www.linkedin.com/jobs/search/?keywords=Python+Developer&sortBy=R&location=Chennai&f_AL=true&f_WT=2&f_E=2 (Task: Navigating)
+[2026-08-26 17:33:25] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:33:28] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:33:28] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete it in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:33:29] [INFO] [telegram] Telegram message sent successfully.
+[2026-08-26 17:33:29] [INFO] [search] Searching LinkedIn: https://www.linkedin.com/jobs/search/?keywords=Python+Developer&sortBy=R&location=Bangalore&f_AL=true&f_WT=2&f_E=2
+[2026-08-26 17:33:29] [INFO] [browser] [Browser Status] Navigating to https://www.linkedin.com/jobs/search/?keywords=Python+Developer&sortBy=R&location=Bangalore&f_AL=true&f_WT=2&f_E=2 (Task: Navigating)
+[2026-08-26 17:33:29] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:33:31] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:33:34] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:33:34] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete it in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:33:35] [INFO] [telegram] Telegram message sent successfully.
+[2026-08-26 17:33:35] [INFO] [search] Searching LinkedIn: https://www.linkedin.com/jobs/search/?keywords=AI+Engineer&sortBy=R&location=Chennai&f_AL=true&f_WT=2&f_E=2
+[2026-08-26 17:33:35] [INFO] [browser] [Browser Status] Navigating to https://www.linkedin.com/jobs/search/?keywords=AI+Engineer&sortBy=R&location=Chennai&f_AL=true&f_WT=2&f_E=2 (Task: Navigating)
+[2026-08-26 17:33:35] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:33:37] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:33:39] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:33:39] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete it in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:33:41] [INFO] [telegram] Telegram message sent successfully.
+[2026-08-26 17:33:41] [INFO] [search] Searching LinkedIn: https://www.linkedin.com/jobs/search/?keywords=AI+Engineer&sortBy=R&location=Bangalore&f_AL=true&f_WT=2&f_E=2
+[2026-08-26 17:33:41] [INFO] [browser] [Browser Status] Navigating to https://www.linkedin.com/jobs/search/?keywords=AI+Engineer&sortBy=R&location=Bangalore&f_AL=true&f_WT=2&f_E=2 (Task: Navigating)
+[2026-08-26 17:33:41] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:33:43] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:33:45] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:33:45] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete it in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:33:46] [INFO] [telegram] Telegram message sent successfully.
+[2026-08-26 17:33:46] [INFO] [search] Searching LinkedIn: https://www.linkedin.com/jobs/search/?keywords=Machine+Learning+Engineer&sortBy=R&location=Chennai&f_AL=true&f_WT=2&f_E=2
+[2026-08-26 17:33:46] [INFO] [browser] [Browser Status] Navigating to https://www.linkedin.com/jobs/search/?keywords=Machine+Learning+Engineer&sortBy=R&location=Chennai&f_AL=true&f_WT=2&f_E=2 (Task: Navigating)
+[2026-08-26 17:33:46] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:33:49] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:33:51] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:33:51] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete it in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:33:52] [INFO] [telegram] Telegram message sent successfully.
+[2026-08-26 17:33:52] [INFO] [search] Searching LinkedIn: https://www.linkedin.com/jobs/search/?keywords=Machine+Learning+Engineer&sortBy=R&location=Bangalore&f_AL=true&f_WT=2&f_E=2
+[2026-08-26 17:33:52] [INFO] [browser] [Browser Status] Navigating to https://www.linkedin.com/jobs/search/?keywords=Machine+Learning+Engineer&sortBy=R&location=Bangalore&f_AL=true&f_WT=2&f_E=2 (Task: Navigating)
+[2026-08-26 17:33:52] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:33:55] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:33:56] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:33:56] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete it in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:33:58] [INFO] [telegram] Telegram message sent successfully.
+[2026-08-26 17:33:58] [INFO] [search] Using mock job generator for demonstration / offline validation.
+[2026-08-26 17:33:58] [INFO] [search] 12 jobs scraped, 12 matched filters & threshold.
+[2026-08-26 17:33:58] [INFO] [browser] [Browser Status] Search complete: 12 jobs ready (Task: Ready)
+[2026-08-26 17:33:58] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:34:01] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:34:04] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:34:07] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:34:10] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:34:13] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:34:16] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:34:19] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:34:22] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:34:25] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:34:28] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:34:31] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:34:34] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:34:37] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:34:40] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:34:43] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:34:46] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:34:49] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:34:52] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:34:55] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:34:58] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:35:01] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:35:04] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:35:07] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:35:08] [INFO] [search] Starting job search for: ['Python Developer', 'AI Engineer', 'Machine Learning Engineer', 'Backend Developer', 'Data Scientist'] in ['Chennai', 'Bangalore', 'Remote', 'India']
+[2026-08-26 17:35:08] [INFO] [browser] [Browser Status] Searching for jobs... (Task: Job Search)
+[2026-08-26 17:35:08] [INFO] [search] Searching LinkedIn: https://www.linkedin.com/jobs/search/?keywords=Python+Developer&sortBy=R&location=Chennai&f_AL=true&f_WT=2&f_E=2
+[2026-08-26 17:35:08] [INFO] [browser] [Browser Status] Navigating to https://www.linkedin.com/jobs/search/?keywords=Python+Developer&sortBy=R&location=Chennai&f_AL=true&f_WT=2&f_E=2 (Task: Navigating)
+[2026-08-26 17:35:10] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:35:13] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:35:13] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete it in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:35:14] [INFO] [telegram] Telegram message sent successfully.
+[2026-08-26 17:35:14] [INFO] [search] Searching LinkedIn: https://www.linkedin.com/jobs/search/?keywords=Python+Developer&sortBy=R&location=Bangalore&f_AL=true&f_WT=2&f_E=2
+[2026-08-26 17:35:14] [INFO] [browser] [Browser Status] Navigating to https://www.linkedin.com/jobs/search/?keywords=Python+Developer&sortBy=R&location=Bangalore&f_AL=true&f_WT=2&f_E=2 (Task: Navigating)
+[2026-08-26 17:35:14] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:35:16] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:35:19] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:35:19] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete it in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:35:20] [INFO] [telegram] Telegram message sent successfully.
+[2026-08-26 17:35:20] [INFO] [search] Searching LinkedIn: https://www.linkedin.com/jobs/search/?keywords=AI+Engineer&sortBy=R&location=Chennai&f_AL=true&f_WT=2&f_E=2
+[2026-08-26 17:35:20] [INFO] [browser] [Browser Status] Navigating to https://www.linkedin.com/jobs/search/?keywords=AI+Engineer&sortBy=R&location=Chennai&f_AL=true&f_WT=2&f_E=2 (Task: Navigating)
+[2026-08-26 17:35:20] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:35:22] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:35:25] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:35:25] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete it in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:35:26] [INFO] [telegram] Telegram message sent successfully.
+[2026-08-26 17:35:26] [INFO] [search] Searching LinkedIn: https://www.linkedin.com/jobs/search/?keywords=AI+Engineer&sortBy=R&location=Bangalore&f_AL=true&f_WT=2&f_E=2
+[2026-08-26 17:35:26] [INFO] [browser] [Browser Status] Navigating to https://www.linkedin.com/jobs/search/?keywords=AI+Engineer&sortBy=R&location=Bangalore&f_AL=true&f_WT=2&f_E=2 (Task: Navigating)
+[2026-08-26 17:35:26] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:35:28] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:35:30] [WARNING] [browser] Security verification element detected in DOM.
+[2026-08-26 17:35:30] [INFO] [browser] [Browser Status] Security verification / CAPTCHA detected. Complete it in browser. (Task: PAUSED - Security Check)
+[2026-08-26 17:35:32] [INFO] [telegram] Telegram message sent successfully.
+[2026-08-26 17:35:32] [INFO] [search] Searching LinkedIn: https://www.linkedin.com/jobs/search/?keywords=Machine+Learning+Engineer&sortBy=R&location=Chennai&f_AL=true&f_WT=2&f_E=2
+[2026-08-26 17:35:32] [INFO] [browser] [Browser Status] Navigating to https://www.linkedin.com/jobs/search/?keywords=Machine+Learning+Engineer&sortBy=R&location=Chennai&f_AL=true&f_WT=2&f_E=2 (Task: Navigating)
+[2026-08-26 17:35:32] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:35:32] [ERROR] [browser] Navigation error for https://www.linkedin.com/jobs/search/?keywords=Machine+Learning+Engineer&sortBy=R&location=Chennai&f_AL=true&f_WT=2&f_E=2: Page.goto: net::ERR_ABORTED; maybe frame was detached?
+Call log:
+  - navigating to "https://www.linkedin.com/jobs/search/?keywords=Machine+Learning+Engineer&sortBy=R&location=Chennai&f_AL=true&f_WT=2&f_E=2", waiting until "domcontentloaded"
+
+[2026-08-26 17:35:32] [INFO] [browser] [Browser Status] Error navigating: Page.goto: net::ERR_ABORTED; maybe frame was detached?
+Call log:
+  - navigating to "https://www.linkedin.com/jobs/search/?keywords=Machine+Learning+Engineer&sortBy=R&location=Chennai&f_AL=true&f_WT=2&f_E=2", waiting until "domcontentloaded"
+ (Task: Error)
+[2026-08-26 17:35:32] [INFO] [search] Searching LinkedIn: https://www.linkedin.com/jobs/search/?keywords=Machine+Learning+Engineer&sortBy=R&location=Bangalore&f_AL=true&f_WT=2&f_E=2
+[2026-08-26 17:35:32] [INFO] [browser] [Browser Status] Navigating to https://www.linkedin.com/jobs/search/?keywords=Machine+Learning+Engineer&sortBy=R&location=Bangalore&f_AL=true&f_WT=2&f_E=2 (Task: Navigating)
+[2026-08-26 17:35:32] [ERROR] [browser] Navigation error for https://www.linkedin.com/jobs/search/?keywords=Machine+Learning+Engineer&sortBy=R&location=Bangalore&f_AL=true&f_WT=2&f_E=2: Page.goto: Target page, context or browser has been closed
+[2026-08-26 17:35:32] [INFO] [browser] [Browser Status] Error navigating: Page.goto: Target page, context or browser has been closed (Task: Error)
+[2026-08-26 17:35:32] [INFO] [search] Using mock job generator for demonstration / offline validation.
+[2026-08-26 17:35:32] [INFO] [search] 12 jobs scraped, 12 matched filters & threshold.
+[2026-08-26 17:35:32] [INFO] [browser] [Browser Status] Search complete: 12 jobs ready (Task: Ready)
+[2026-08-26 17:35:33] [INFO] [browser] [Browser Status] Browser closed (Task: Idle)
+[2026-08-26 17:35:39] [INFO] [browser] [Browser Status] Starting browser... (Task: Initializing)
+[2026-08-26 17:35:40] [INFO] [browser] [Browser Status] Browser started (Task: Navigating to LinkedIn)
+[2026-08-26 17:35:44] [INFO] [browser] [Browser Status] Awaiting user login in browser (Task: Awaiting Manual Login)
+[2026-08-26 17:35:45] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:35:45] [INFO] [browser] [Browser Status] Opening job: AI Engineer at Google Cloud AI (Task: Preparing Application)
+[2026-08-26 17:35:45] [INFO] [browser] [Browser Status] Navigating to https://www.linkedin.com/jobs/view/mock-100004/ (Task: Navigating)
+[2026-08-26 17:35:46] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:35:48] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:35:49] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:35:50] [INFO] [workflow] Easy Apply button not directly found on page. Might be external application or already applied.
+[2026-08-26 17:35:50] [INFO] [browser] [Browser Status] Job page opened. Check browser to continue application. (Task: Reviewing)
+[2026-08-26 17:35:52] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:35:55] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:35:58] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:36:01] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:36:04] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:36:07] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:36:10] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:36:13] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:36:16] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:36:19] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:36:22] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:36:25] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:36:28] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:36:30] [INFO] [browser] [Browser Status] Opening job: AI Engineer at Google Cloud AI (Task: Preparing Application)
+[2026-08-26 17:36:30] [INFO] [browser] [Browser Status] Navigating to https://www.linkedin.com/jobs/view/mock-100004/ (Task: Navigating)
+[2026-08-26 17:36:31] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:36:33] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:36:34] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:36:35] [INFO] [workflow] Easy Apply button not directly found on page. Might be external application or already applied.
+[2026-08-26 17:36:35] [INFO] [browser] [Browser Status] Job page opened. Check browser to continue application. (Task: Reviewing)
+[2026-08-26 17:36:37] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:36:40] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:36:43] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:36:46] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:36:49] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:36:52] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:36:55] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:36:58] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:37:01] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:37:04] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:37:07] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:37:10] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:37:13] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:37:16] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:39:41] [ERROR] [workflow] Error in prepare_application workflow: BrowserContext.new_page: Target page, context or browser has been closed
+[2026-08-26 17:39:42] [WARNING] [telegram] Telegram sendMessage failed [400]: {"ok":false,"error_code":400,"description":"Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 85"}
+[2026-08-26 17:40:30] [INFO] [search] Starting job search for: ['Python Developer', 'AI Engineer', 'Machine Learning Engineer', 'Backend Developer', 'Data Scientist'] in ['Chennai', 'Bangalore', 'Remote', 'India']
+[2026-08-26 17:40:30] [INFO] [browser] [Browser Status] Searching for jobs... (Task: Job Search)
+[2026-08-26 17:40:30] [INFO] [search] Using mock job generator for demonstration / offline validation.
+[2026-08-26 17:40:30] [INFO] [search] 12 jobs scraped, 10 matched filters & threshold.
+[2026-08-26 17:40:30] [INFO] [browser] [Browser Status] Search complete: 10 jobs ready (Task: Ready)
+[2026-08-26 17:40:35] [INFO] [search] Starting job search for: ['Python Developer', 'AI Engineer', 'Machine Learning Engineer', 'Backend Developer', 'Data Scientist'] in ['Chennai', 'Bangalore', 'Remote', 'India']
+[2026-08-26 17:40:35] [INFO] [browser] [Browser Status] Searching for jobs... (Task: Job Search)
+[2026-08-26 17:40:35] [INFO] [search] Using mock job generator for demonstration / offline validation.
+[2026-08-26 17:40:35] [INFO] [search] 12 jobs scraped, 10 matched filters & threshold.
+[2026-08-26 17:40:35] [INFO] [browser] [Browser Status] Search complete: 10 jobs ready (Task: Ready)
+[2026-08-26 17:40:40] [ERROR] [workflow] Error in prepare_application workflow: BrowserContext.new_page: Target page, context or browser has been closed
+[2026-08-26 17:40:41] [WARNING] [telegram] Telegram sendMessage failed [400]: {"ok":false,"error_code":400,"description":"Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 85"}
+[2026-08-26 17:40:49] [INFO] [app] Shutting down assistant...
+[2026-08-26 17:40:49] [INFO] [browser] [Browser Status] Browser closed (Task: Idle)
+[2026-08-26 17:40:49] [INFO] [app] Shutdown complete.
+[2026-08-26 17:40:54] [INFO] [app] Initializing LinkedIn Job Application Assistant...
+[2026-08-26 17:40:54] [INFO] [database] Database initialized successfully.
+[2026-08-26 17:40:54] [INFO] [telegram] Telegram command polling loop started.
+[2026-08-26 17:40:54] [INFO] [telegram] Telegram bot polling started in background thread.
+[2026-08-26 17:40:54] [INFO] [app] Server ready at http://127.0.0.1:8000
+[2026-08-26 17:41:07] [INFO] [browser] [Browser Status] Starting browser... (Task: Initializing)
+[2026-08-26 17:41:09] [INFO] [browser] [Browser Status] Browser started (Task: Navigating to LinkedIn)
+[2026-08-26 17:41:12] [INFO] [browser] [Browser Status] Awaiting user login in browser (Task: Awaiting Manual Login)
+[2026-08-26 17:41:13] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:41:13] [INFO] [browser] [Browser Status] Opening job: AI Engineer at Swiggy Engineering (Task: Preparing Application)
+[2026-08-26 17:41:13] [INFO] [browser] [Browser Status] Navigating to https://www.linkedin.com/jobs/view/mock-100005/ (Task: Navigating)
+[2026-08-26 17:41:14] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:41:16] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:41:17] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:41:18] [INFO] [workflow] Easy Apply button not directly found on page. Might be external application or already applied.
+[2026-08-26 17:41:18] [INFO] [browser] [Browser Status] Job page opened. Check browser to continue application. (Task: Reviewing)
+[2026-08-26 17:41:21] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:41:23] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:41:26] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:41:29] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:41:32] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:41:35] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:41:38] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:41:41] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:41:44] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:41:47] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:41:50] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:41:53] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:41:56] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:41:59] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:42:02] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:42:05] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:42:08] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:42:11] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:42:14] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:42:17] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:42:20] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:42:23] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:42:26] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:42:29] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:42:32] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:42:35] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:42:38] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:42:41] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:42:44] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:42:47] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:42:50] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:42:53] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:43:37] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:44:37] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:45:37] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:46:37] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:47:37] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:48:37] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:49:37] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:50:37] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:51:37] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:51:44] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:51:44] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:51:47] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:51:50] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:51:53] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:51:56] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:51:59] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:52:02] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:52:05] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:52:08] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:52:11] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:52:14] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:52:17] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:52:20] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:52:23] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:52:26] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:52:29] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:52:32] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:52:35] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:52:38] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:52:41] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:52:44] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:53:37] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
+[2026-08-26 17:54:37] [INFO] [browser] [Browser Status] LinkedIn Logged In & Ready (Task: Ready)
