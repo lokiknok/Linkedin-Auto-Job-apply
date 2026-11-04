@@ -1,9 +1,6 @@
 # LinkedIn Job Application Assistant (Python + Playwright)
 
 A production-quality, **human-in-the-loop** LinkedIn job application assistant built with **Python, Playwright, FastAPI, SQLite / SQLAlchemy, a modern responsive frontend, and Telegram Bot notifications**.
-
----
-
 ## 🛡️ Important Safety & Design Requirement
 
 This project is an **application assistant**, **NOT a mass-application bot or bot-detection-evasion tool**.
